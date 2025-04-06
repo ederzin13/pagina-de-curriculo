@@ -3,6 +3,7 @@ html {
     color: rgba(35, 2, 46, 1);
     text-align: center;
     line-height: 1.6rem;
+    scroll-behavior: smooth;
 }
 
 .menu {
