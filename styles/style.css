@@ -42,6 +42,7 @@ html {
 .image-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -159,4 +160,176 @@ footer {
       50% {
         transform: scale(1.1); 
       }
+}
+
+@media (max-width: 800px) {
+    .image-container {
+        height: 400px;
+    }
+
+    .html-logo,
+    .css-logo,
+    .js-logo {
+        height: 100px;
+        width: auto;
+        margin: 0 1rem 0 1rem;
+    }
+
+    #arrow {
+        text-align: center;
+        font-size: 2rem;
+        margin: 0 0 2rem 0;
+    }
+
+    .tecnologias,
+    .sobremim,
+    .projetos,
+    .redes {
+        width: 300px;
+        padding: 0 50px 0 50px;
+        margin: 40px auto 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .icons-tecnologias {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .html,
+    .css,
+    .js,
+    .mysql,
+    .git  {
+        height: 90px;
+        width: auto;
+    }
+
+    .container-redes {
+        height: 900px;
+        width: 450px;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .github,
+    .email,
+    .youtube,
+    .linkedin {
+        margin: 0 auto;
+        height: 200px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #github,
+    #email,
+    #youtube,
+    #linkedin {
+        font-size: 100px;
+    }
+
+    footer {
+        width: 100%; 
+        text-align: center;
+        margin: 80px 0 0 0; 
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .menu {
+        display: none;
+    } 
+
+    .image-container {
+        height: 400px;
+    }
+
+    .html-logo,
+    .css-logo,
+    .js-logo {
+        height: 100px;
+        width: auto;
+        margin: 0 1rem 0 1rem;
+    }
+
+    #arrow {
+        text-align: center;
+        font-size: 2rem;
+        margin: 0 0 2rem 0;
+    }
+
+    .tecnologias,
+    .sobremim,
+    .projetos,
+    .redes {
+        width: 300px;
+        padding: 0 50px 0 50px;
+        margin: 40px auto 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .icons-tecnologias {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .html,
+    .css,
+    .js,
+    .mysql,
+    .git  {
+        height: 90px;
+        width: auto;
+    }
+
+    .container-redes {
+        height: 900px;
+        width: 450px;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .github,
+    .email,
+    .youtube,
+    .linkedin {
+        margin: 0 auto;
+        height: 200px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #github,
+    #email,
+    #youtube,
+    #linkedin {
+        font-size: 50px;
+    }
+
+    footer {
+        width: 100%; 
+        text-align: center;
+        margin: 80px 0 0 0; 
+        overflow: hidden;
+    }
 }
