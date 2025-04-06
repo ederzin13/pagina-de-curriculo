@@ -18,7 +18,7 @@ switch(number) {
     case 3: frase = "Com flocos crocantes!";
     break;
 
-    case 4: frase = "Amanhã é um novo dia!";
+    case 4: frase = "Amanhã é um novo dia!"; 
     break;
 
     case 5: frase = "Pensando na morte da bezerra";
